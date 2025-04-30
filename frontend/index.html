@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payroll Management System</title>
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Payroll Management System</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Employees</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Attendance</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Leave</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Salary</a></li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary ms-2 text-white" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Dashboard Content -->
+  <main class="container-fluid py-4 flex-grow-1">
+    <div class="row g-4">
+      <!-- Dashboard Cards -->
+      <div class="col-md-4">
+        <div class="card bg-primary text-white shadow-sm h-100">
+          <div class="card-header">Total Employees</div>
+          <div class="card-body text-center">
+            <h2 class="display-5">150</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-warning text-white shadow-sm h-100">
+          <div class="card-header">Pending Leaves</div>
+          <div class="card-body text-center">
+            <h2 class="display-5">20</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-success text-white shadow-sm h-100">
+          <div class="card-header">Attendance Overview</div>
+          <div class="card-body text-center">
+            <h2 class="display-5">85%</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-danger text-white shadow-sm h-100">
+          <div class="card-header">Total Payroll Processed</div>
+          <div class="card-body text-center">
+            <h2 class="display-5">LKR.50,000</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Employee Summary Table -->
+    <div class="mt-5">
+      <h4 class="mb-3">Employee Summary</h4>
+      <div class="table-responsive">
+        <table class="table table-striped align-middle">
+          <thead class="table-dark">
+            <tr>
+              <th>Employee Name</th>
+              <th>ID</th>
+              <th>Department</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ahamed Naaji</td>
+              <td>EMP-001</td>
+              <td>Human Resources</td>
+              <td><span class="badge bg-success">Active</span></td>
+            </tr>
+            <tr>
+              <td>Ifnas Ahamed</td>
+              <td>EMP-002</td>
+              <td>Information Technology</td>
+              <td><span class="badge bg-secondary">Inactive</span></td>
+            </tr>
+            <tr>
+              <td>Dinoch</td>
+              <td>EMP-003</td>
+              <td>Finance</td>
+              <td><span class="badge bg-success">Active</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-light py-3 mt-auto">
+    <div class="container text-center">
+      <p class="text-muted mb-0">
+        &copy; 2023 Payroll Management System. 
+        <a href="#" class="text-decoration-none">Privacy Policy</a> | 
+        <a href="#" class="text-decoration-none">Contact</a> | 
+        <a href="#" class="text-decoration-none">About</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

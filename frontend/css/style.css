@@ -1,0 +1,78 @@
+/* Custom Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .table thead th {
+    vertical-align: middle;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline !important;
+  }
+
+
+  
+ 
+  
+  .modal-body label {
+    font-weight: 500;
+  }
+  
+  .btn-success {
+    background-color: #198754;
+  }
+  
+  .btn-success:hover {
+    background-color: #157347;
+  }
+  
+  .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .form-control:focus, .form-select:focus {
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+    border-color: #198754;
+  }
+  
+  .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+
+  
+  .badge.bg-warning {
+    color: #212529 !important;
+  }
+
+  .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+
+  .btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }
+  main {
+    min-height: calc(100vh - 112px); /* Subtract nav + footer height */
+  }

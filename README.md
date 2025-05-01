@@ -1,5 +1,7 @@
 Payroll Management System
+
 Overview
+
 The Payroll Management System is a web-based application designed to streamline employee management, attendance tracking, leave requests, and salary processing. This system provides role-based dashboards for Admins, HR Managers, and Employees, ensuring efficient workflows and data security.
 
 Features
